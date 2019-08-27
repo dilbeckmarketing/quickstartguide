@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Site-08-27_1017",
+    "name": "Quick Start Guide",
     "currentPage": "page5.html",
     "theme": {
       "name": "unicore",
@@ -22,6 +22,8 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.6",
     "siteFonts": [],
+    "favicon": "@PROJECT_PATH@/assets/images/img-5888-128x128.png",
+    "noImageResize": "",
     "uniqCompNum": 50,
     "versionPublish": "4.10.6"
   },
