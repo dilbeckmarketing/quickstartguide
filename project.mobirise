@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-08-27_1017",
-    "currentPage": "page3.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "unicore",
       "title": "Unicore",
@@ -22,7 +22,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.6",
     "siteFonts": [],
-    "uniqCompNum": 40,
+    "uniqCompNum": 50,
     "versionPublish": "4.10.6"
   },
   "pages": {
@@ -67,7 +67,7 @@
           "title1": "<a href=\"https://bostonlogic-help.propertybase.com/hc/en-us\" target=\"_blank\" class=\"text-white\">Boston Logic Support</a>",
           "title2": "<a href=\"page2.html\" class=\"text-white\">Stock Photos</a>",
           "title3": "<a href=\"page3.html\" class=\"text-white\">Social Media</a>",
-          "title4": "Content Curation",
+          "title4": "<a href=\"page5.html\" class=\"text-white\">Content Curation</a>",
           "text": "Get started customizing your site, making the most of your Dilbeck CRM, and get a handle on all the digital tools of a Dilbeck agent.",
           "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-primary\">Purchase Now <i class=\"fa fa-shopping-basket\"></i></a>",
           "alias": "unicore/components",
@@ -104,10 +104,10 @@
               "class": "mbr-figure__img",
               "width": 1400,
               "src": "@PROJECT_PATH@/assets/images/screen-shot-2019-08-27-at-11.15.09-am-1400x1051.png",
-              "link": "https://www.dilbeck.com/concierge",
+              "link": "page6.html",
               "alt": "",
               "title": "",
-              "linkInNewWindow": true,
+              "linkInNewWindow": false,
               "active": true
             },
             "video": {
@@ -118,9 +118,9 @@
               "loop": false
             }
           },
-          "title": "Dilbeck Premier Concierge Materials",
+          "title": "<a href=\"page6.html\">Dilbeck Premier Concierge Materials</a>",
           "text": "Learn more about Dilbeck Premier Concierge and find the materials you need to promote this new exciting program!",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">learn more</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"page6.html\">learn more</a>",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
@@ -528,7 +528,7 @@
     "page1.html": {
       "settings": {
         "title": "Add Designations",
-        "order": 4
+        "order": 6
       },
       "components": [
         {
@@ -2439,7 +2439,7 @@
     "page2.html": {
       "settings": {
         "title": "Stock Photos",
-        "order": 3
+        "order": 5
       },
       "components": [
         {
@@ -2869,7 +2869,7 @@
     "page3.html": {
       "settings": {
         "title": "Social Media",
-        "order": 1
+        "order": 4
       },
       "components": [
         {
@@ -3104,7 +3104,7 @@
           },
           "title1": "Bakery egg foods around the world",
           "info1": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
-          "text1": "<p><br>We've compiled a few of our favorite social media guides and resources to get you started off on the right foot. Learn how to set up your accounts and get social!</p><p><a href=\"page4.html\">View Guides</a> &gt;</p>",
+          "text1": "<p>We've compiled a few of our favorite social media guides and resources to get you started off on the right foot. Learn how to set up your accounts and get social!</p><p><a href=\"page4.html\">View Guides</a> &gt;</p>",
           "media2": {
             "image": {
               "active": true,
@@ -3187,8 +3187,8 @@
             "overlayOpacity": 0.5
           },
           "title": "NEED SOCIAL MEDIA CONTENT?",
-          "text": "Discover some of the best local and national sites to find real estate and lifestyle content.<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font cta-btn btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Peruse content</a>",
+          "text": "<a href=\"page5.html\" class=\"text-white\">Discover some of the best local and national sites to find real estate and lifestyle content.</a><br>",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn mbr-title-font cta-btn btn-default\" href=\"page5.html\" data-toolbar=\"-mbrBtnMove\">Peruse content</a>",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
@@ -3378,7 +3378,7 @@
     "page4.html": {
       "settings": {
         "title": "Social Media Guides",
-        "order": 1
+        "order": 3
       },
       "components": [
         {
@@ -3493,6 +3493,751 @@
           ],
           "_name": "msg-box20",
           "_anchor": "msg-box20-13"
+        }
+      ]
+    },
+    "page5.html": {
+      "settings": {
+        "title": "Social Media Content",
+        "order": 2
+      },
+      "components": [
+        {
+          "_params": {
+            "showTitle": true,
+            "showInfo": false,
+            "paddingTop": 2,
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/blog/1.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title1": "What To Post",
+          "info1": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text1": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/blog/2.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title2": "Bakery egg foods around the world",
+          "info2": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text2": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/blog/3.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title3": "Bakery egg foods around the world",
+          "info3": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text3": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/4.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title4": "Bakery egg foods around the world",
+          "info4": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text4": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box22",
+          "_anchor": "msg-box22-15"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/blog/1.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title1": "Bakery egg foods around the world",
+          "info1": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text1": "<p>It might seem strange, but posting only real estate content to your social media channels probably won’t get the best results. Remember to post 80% useful information and only 20% self-promotional material. <b>Try these non-real estate content ideas to get started.</b></p>",
+          "media2": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/blog/2.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title2": "Bakery egg foods around the world",
+          "info2": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text2": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/blog/3.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title3": "Bakery egg foods around the world",
+          "info3": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text3": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/4.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title4": "Bakery egg foods around the world",
+          "info4": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text4": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box23",
+          "_anchor": "msg-box23-16"
+        },
+        {
+          "_params": {
+            "showTitles": true,
+            "showSubtitle": true,
+            "showText": true,
+            "elements": "5",
+            "paddingTop": 2,
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "button1": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-circle btn-success\" data-toggle=\"tab\" href=\"#menu1\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-info fa-3x\"></i></a>",
+          "button2": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-default btn-circle\" data-toggle=\"tab\" href=\"#menu2\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-file-text-o fa-3x\"></i></a>",
+          "button3": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-default btn-circle\" data-toggle=\"tab\" href=\"#menu3\"><i class=\"fa fa-image fa-3x\"></i></a>",
+          "button4": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-default btn-circle\" data-toggle=\"tab\" href=\"#menu4\"><i class=\"fa fa-cogs fa-3x\"></i></a>",
+          "button5": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-default btn-circle\" data-toggle=\"tab\" href=\"#menu5\"><i class=\"fa fa-check fa-3x\"></i></a>",
+          "title1": "local<br>events",
+          "title2": "DIY<br>projects",
+          "title3": "interesting<br>home trends",
+          "title4": "exciting<br>local news",
+          "title5": "local<br>reviews",
+          "subtitle1": "Local Events",
+          "subtitle2": "Fill description",
+          "subtitle3": "Upload Images",
+          "subtitle4": "Configure Display",
+          "subtitle5": "Save Result",
+          "text1": "Everyone cares about what's happening in their area. Whether they have a family and weekend events to plan, or are looking for a great date night, compelling and interesting local events can increase the social value of all your info. Bonus points if you find something your followers want to share with potential event partners in crime.",
+          "text2": "Nam sed mollis nisi. Praesent laoreet imperdiet est eget viverra. Aliquam ultrices euismod pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed pellentesque nibh eros, sed semper metus interdum nec. Aliquam erat volutpat. Morbi ut lectus venenatis, rutrum nunc ut, consectetur purus. Praesent ultrices sapien quam, non elementum metus sagittis id. Quisque rutrum, ex sed ultrices congue, ante nulla varius ipsum, id malesuada lorem justo eget sem. Aliquam erat volutpat. Curabitur a libero sem. Donec pulvinar aliquet dui, non varius ipsum ultricies sed. Praesent molestie arcu arcu, eu fermentum justo malesuada ut.",
+          "text3": "Nam sed mollis nisi. Praesent laoreet imperdiet est eget viverra. Aliquam ultrices euismod pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed pellentesque nibh eros, sed semper metus interdum nec. Aliquam erat volutpat. Morbi ut lectus venenatis, rutrum nunc ut, consectetur purus. Praesent ultrices sapien quam, non elementum metus sagittis id. Quisque rutrum, ex sed ultrices congue, ante nulla varius ipsum, id malesuada lorem justo eget sem. Aliquam erat volutpat. Curabitur a libero sem. Donec pulvinar aliquet dui, non varius ipsum ultricies sed. Praesent molestie arcu arcu, eu fermentum justo malesuada ut.",
+          "text4": "Nam sed mollis nisi. Praesent laoreet imperdiet est eget viverra. Aliquam ultrices euismod pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed pellentesque nibh eros, sed semper metus interdum nec. Aliquam erat volutpat. Morbi ut lectus venenatis, rutrum nunc ut, consectetur purus. Praesent ultrices sapien quam, non elementum metus sagittis id. Quisque rutrum, ex sed ultrices congue, ante nulla varius ipsum, id malesuada lorem justo eget sem. Aliquam erat volutpat. Curabitur a libero sem. Donec pulvinar aliquet dui, non varius ipsum ultricies sed. Praesent molestie arcu arcu, eu fermentum justo malesuada ut.",
+          "text5": "Nam sed mollis nisi. Praesent laoreet imperdiet est eget viverra. Aliquam ultrices euismod pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed pellentesque nibh eros, sed semper metus interdum nec. Aliquam erat volutpat. Morbi ut lectus venenatis, rutrum nunc ut, consectetur purus. Praesent ultrices sapien quam, non elementum metus sagittis id. Quisque rutrum, ex sed ultrices congue, ante nulla varius ipsum, id malesuada lorem justo eget sem. Aliquam erat volutpat. Curabitur a libero sem. Donec pulvinar aliquet dui, non varius ipsum ultricies sed. Praesent molestie arcu arcu, eu fermentum justo malesuada ut.",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box16",
+          "_anchor": "msg-box16-14"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showInfo": false,
+            "showMedia": true,
+            "showText": true,
+            "bgImageRadio": false,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/curbed-1400x700.jpg",
+              "link": "https://la.curbed.com/",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": true
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title1": "Curbedla",
+          "info1": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text1": "<p>The holy grail of real estate websites, CurbedLA not only highlights great listings, but also puts together epic local guides and real estate news. It's all designed with BOTH realtors and clients in mind, so everything is worthy of a share.</p>",
+          "media2": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/latimes-1400x700.jpg",
+              "link": "https://www.latimes.com/business/real-estate",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": true
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title2": "la times real estate",
+          "info2": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text2": "<p>LA Times packs a pretty big punch and carries serious weight in the real estate world (for buyers, seller, and agents). They showcase impressive homes, while delivering the latest in industry news.</p>",
+          "media3": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/eaterla-1400x700.jpg",
+              "link": "https://la.eater.com/",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": true
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title3": "eater la",
+          "info3": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text3": "<p>Everybody's got to eat, and right now, everyone is devouring food content online. LA Eater puts some foodie goodness front and center with reviews, events, and more.</p>",
+          "media4": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/car-1400x700.jpg",
+              "link": "https://www.car.org/marketing",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": true
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title4": "<a href=\"https://www.car.org/marketing\" target=\"_blank\">car.org</a>",
+          "info4": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text4": "<p>The marketing game is strong with California Association of Realtors. They have tons of content specially designed for Realtors to share with their audience, all ready made and packed with inside knowledge.</p>",
+          "media5": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/dilbeck-fb-1400x700.jpg",
+              "link": "https://www.facebook.com/dilbeckre",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": true
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title5": "dilbeck facebook",
+          "info5": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text5": "<p>Not to brag, but we're always doing some cool stuff. If you want to invite people to our blood drive, show them our latest programs, or just join in the fun visit our Facebook page &amp; share!</p>",
+          "media6": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/local-city-1400x700.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title6": "Local city pages",
+          "info6": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text6": "<p>Every city has a local page they keep updated with city sponsored events, breaking news, and insights. Keep this bookmarked and give your city a shout out when something major comes to town.</p><p><br></p><p><br></p>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box10",
+          "_anchor": "msg-box10-17"
+        }
+      ]
+    },
+    "page6.html": {
+      "settings": {
+        "title": "Concierge",
+        "order": 1
+      },
+      "components": [
+        {
+          "_params": {
+            "showTitle": true,
+            "showInfo": false,
+            "paddingTop": 2,
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/blog/1.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title1": "Dilbeck Premier Concierge | Marketing Materials",
+          "info1": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text1": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/blog/2.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title2": "Bakery egg foods around the world",
+          "info2": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text2": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/blog/3.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title3": "Bakery egg foods around the world",
+          "info3": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text3": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/4.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title4": "Bakery egg foods around the world",
+          "info4": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text4": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box22",
+          "_anchor": "msg-box22-18"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showMedia": true,
+            "bgImageRadio": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "headerAlign": "left",
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2019-08-27-at-11.15.09-am-1400x1051.png",
+              "link": "https://www.dilbeck.com/concierge",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": true,
+              "active": true
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "Dilbeck premier concierge website",
+          "text": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.dilbeck.com/concierge\" target=\"_blank\">visit site</a>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-1a"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showInfo": false,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/blog/1.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title1": "Social Share Images",
+          "info1": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text1": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/blog/2.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title2": "Bakery egg foods around the world",
+          "info2": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text2": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/blog/3.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title3": "Bakery egg foods around the world",
+          "info3": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text3": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/4.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title4": "Bakery egg foods around the world",
+          "info4": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text4": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box22",
+          "_anchor": "msg-box22-1d"
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "filter": false,
+            "fullWidth": true,
+            "paddingTop": "2",
+            "paddingBottom": 0,
+            "noGutter": true,
+            "showText": false,
+            "bgColor": "#fff",
+            "images": [
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "image": "@PROJECT_PATH@/assets/images/concierge-intro-social-share-2000x2000.png",
+                "thumb": "@PROJECT_PATH@/assets/images/concierge-intro-social-share-2000x2000-800x800.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "caption": "Type caption here",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/concierge-spectacular-staging-social-shares-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/concierge-spectacular-staging-social-shares-2000x2000-800x800.jpg",
+                "caption": "Type caption here",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "tags": "Creative",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/concierge-remarkable-renovations-share-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/concierge-remarkable-renovations-share-2000x2000-800x800.jpg",
+                "caption": "Type caption here",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/concierge-staging-social-shares-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/concierge-staging-social-shares-2000x2000-800x800.jpg",
+                "caption": "Type caption here",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/concierge-fb-insta-twitter-2000x2000.png",
+                "thumb": "@PROJECT_PATH@/assets/images/concierge-fb-insta-twitter-2000x2000-800x800.png",
+                "caption": "Type caption here",
+                "active": true,
+                "alt": "",
+                "title": ""
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery3",
+          "_anchor": "gallery3-1b"
         }
       ]
     }
